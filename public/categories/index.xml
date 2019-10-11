@@ -12,29 +12,38 @@
     
     
     <item>
-      <title>Research highlight</title>
-      <link>/categories/research-highlight/</link>
+      <title>Research highlights</title>
+      <link>/categories/research-highlights/</link>
       <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/categories/research-highlight/</guid>
+      <guid>/categories/research-highlights/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conferences</title>
+      <link>/categories/conferences/</link>
+      <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/conferences/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Conference</title>
       <link>/categories/conference/</link>
-      <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>/categories/conference/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Thought</title>
-      <link>/categories/thought/</link>
+      <title>Thoughts</title>
+      <link>/categories/thoughts/</link>
       <pubDate>Sat, 25 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/categories/thought/</guid>
+      <guid>/categories/thoughts/</guid>
       <description></description>
     </item>
     

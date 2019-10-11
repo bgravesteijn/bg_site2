@@ -3,7 +3,7 @@ title: Evolution or revolution
 author: Benjamin Gravesteijn
 date: '2019-05-24'
 slug: evolution-or-revolution
-categories: ["Conference"]
+categories: ["Conferences"]
 tags: ["Publications", "Education", "Rewarding"]
 ---
 

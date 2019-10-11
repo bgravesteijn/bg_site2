@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thoughts on Benjamin Gravesteijn</title>
+    <link>/categories/thoughts/</link>
+    <description>Recent content in Thoughts on Benjamin Gravesteijn</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/thoughts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Acknowledging and recognizing scientists</title>
+      <link>/post/acknowledging-and-recognizing-scientists/</link>
+      <pubDate>Sat, 25 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/acknowledging-and-recognizing-scientists/</guid>
+      <description>A recent post focused around the future of acknowledging and recognizing science. One of the main points was that researchers right now are mostly acknowledged on their scientific output, instead of also on their total work as academic. As an illustration, I want to present how the community right now in practice values me as a researcher, as well as how I want to be valued.
+Current acknowledgmentResearchers right now are acknowledged based on their scientific output: publications.</description>
+    </item>
+    
+  </channel>
+</rss>

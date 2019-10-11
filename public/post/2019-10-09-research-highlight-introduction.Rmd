@@ -4,7 +4,7 @@ author: Benjamin Gravesteijn
 date: '2019-10-09'
 slug: research-highlight-introduction
 categories:
-  - Research highlight
+  - Research highlights
 tags:
   - Anesthesia
   - Publications

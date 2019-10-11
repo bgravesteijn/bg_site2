@@ -3,7 +3,7 @@ title: Anaesthesia meets Vienna
 author: Benjamin Gravesteijn
 date: '2019-06-04'
 slug: euroanesthesia-2019
-categories: ["Conference"]
+categories: ["Conferences"]
 tags: ["Anesthesia", "Vienna"]
 ---
 

@@ -4,7 +4,7 @@ author: Benjamin Gravesteijn
 date: '2019-08-21'
 slug: research-visit-to-cambridge
 categories:
-  - Conference
+  - Conferences
 tags:
   - Anesthesia
   - Cambridge
