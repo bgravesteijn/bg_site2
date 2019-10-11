@@ -1,0 +1,77 @@
+---
+title: Acknowledging and recognizing scientists
+author: Benjamin Gravesteijn
+date: '2019-05-25'
+slug: acknowledging-and-recognizing-scientists
+categories: ["Thought"]
+tags: ["Publications", "Education", "Rewarding"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE, echo=FALSE)
+
+library(scholar)
+library(ggplot2)
+library(RColorBrewer)
+ID<-"faWBjCQAAAAJ&hl"
+pubs<-get_publications(ID)
+```
+
+
+A [recent post](https://bgravesteijn.netlify.com/2019/05/24/evolution-or-revolution/) focused around the future of acknowledging and recognizing science. One of the main points was that researchers right now are mostly acknowledged on their scientific output, instead of also on their total work as academic. As an illustration, I want to present how the community right now in practice values me as a researcher, as well as how I want to be valued.
+
+## Current acknowledgment
+Researchers right now are acknowledged based on their scientific output: publications. This implies both the quantity of the publications, as well as their "impact". Impact is most often measured in the number of citations. A combination measure for these two measures, is the [Hirsch-index](https://en.wikipedia.org/wiki/H-index) (or H-index). Combine these three, and I would get this picture:
+
+```{r}
+plot.df <- data.frame(table(pubs$year, pubs$cites))
+colnames(plot.df)<-c("year", "cites", "n")
+plot.df$cites <- as.numeric(as.character(plot.df$cites))
+
+h_df <- pubs[order(pubs$cites, decreasing=TRUE),c("cites", "pubid")]
+h <- 1
+while(h < h_df$cites[h]){
+  h<- h+1
+}
+
+ggplot(plot.df, aes(x=year, y=n, fill=cites))+
+  geom_bar(stat = "identity")+xlab("Year")+ylab("Number")+
+  scale_fill_gradient(low = "lightskyblue1", high = "mediumvioletred")+
+  theme_bw()+theme(axis.title.x=element_text(size=16),
+                   axis.text.x=element_text(size=14),
+                   axis.title.y=element_text(size=16),
+                   axis.text.y=element_text(size=14))+
+  annotate(geom = "text", label=paste("H-index = ",h), x=2, y=6, size=6)
+```
+
+Additionaly, not only the figures per paper count, also your author position counts. This is, however, not the case in every field. In economics, for example, they list their author positions alphabetically. In that field, you have to actually read who did what, to understand their contribution. In the medical field, everything is about being first, last, or possibly second author. Like this:
+
+```{r}
+# position <- rep(factor(0), nrow(pubs))
+# levels(position) <- c(1:1000, "last")
+# for(i in 1:nrow(pubs)){
+#   if(pubs$title[i]=="The 3rd Joint Symposium of the International and National Neurotrauma Societies and AANS/CNS Section on Neurotrauma and Critical Care August 11–16, 2018 Toronto, Canada"){
+#     position[i] <- 1
+#   }else{
+#   x <- strsplit(as.character(pubs$author[i]), ",")[[1]]
+#   p <- which(x%in%c("BY Gravesteijn", " BY Gravesteijn"))
+#   position[i] <- p
+#   if(p==length(x)) position[i] <- "last"
+#   }
+# }
+# save(position, file="Images/position_fig_data.Rdata")
+# 
+load("Images/position_fig_data.Rdata")
+pie(table(position, exclude = names(which(table(position)==0))), 
+    main="Position", cex=2, cex.main=2)
+```
+
+## Ideal acknowledgment
+In reality, these figures do not represent what I have done over the last couple of years. First of all, they do not capture what I have done as a researcher: I have aided other PhD students in my department with statistics, I have provided input in research meetings, I helped organizing a workshop for researchers involved in [CENTER-TBI](https://www.center-tbi.eu/) to assist with starting their analyses: these are also research orientated activities which are not captured in these figures.
+
+Additionally, they do not capture at all the accomplishments in the educational aspect of my work. After all, it should be an essential aspect of the job. Most notably, I am developing a programme where PhD students help medicin master students who are doing their scientific internshipt. It is a subsidiarized consultancy programme. But I have also been involved in the development of a massive online open course ([MOOC](https://en.wikipedia.org/wiki/Massive_open_online_course)) for the Leiden Public Health Management Master. Furthermore, I have been assisting in courses from the [NIHES](http://www.nihes.com/) and [MolMed](https://www.molmed.nl/) schools at the Erasmus MC: both helping develop and assisting in the practicals. 
+
+All these activities, however, should also be taken into account when applying for funding. However, and this is the trickier part, how can this be quantified? When measuring scientific output, you have a quick and dirty way to quantify both quantity (number of publications) and "quality" (number of citations, this is very debated...). This is much harder to do for education. Of course you can quantify the hours, but how will you easily quantify the quality? And all the extra work that goes into the preparation, does that count? 
+
+## Conclusion
+As you can see, measuring the performance of a researcher is less straight-forward if the researcher focuses on education. On the one hand, the lack of extensive measures for quantifying quality in education could be the reason why education is generally undervalued. On the other,  this could be the result of the fact that education is undervalued. However, awareness is rising into this issue: people understand that a heuristic view on acknowledging scientists could enhance teamwork and relieve the experienced pressure, improving the health and usefulness of scientists. The discussion has again been sparked after yesterday's meeting. Now it's time to see some improvements. 

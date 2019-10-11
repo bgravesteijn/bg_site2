@@ -1,0 +1,33 @@
+---
+title: Research visit to Cambridge
+author: Benjamin Gravesteijn
+date: '2019-08-21'
+slug: research-visit-to-cambridge
+categories:
+  - Conference
+tags:
+  - Anesthesia
+  - Cambridge
+---
+
+
+
+<p>The last couple of weeks, I am working in Cambridge. I’m working here with <a href="https://www.magd.cam.ac.uk/user/ercole">Ari Ercole</a>, and <a href="https://www.thelancet.com/journals/laneur/article/PIIS1474-4422(17)30298-3/fulltext">David Menon</a>. Moving to a city where you don’t know anybody can be quite scary. Will you find enough distraction, or will I bore myself to death? Will I drown myself with work, just to keep myself busy? Or will I find a balance?</p>
+<div id="deep-learning" class="section level2">
+<h2>Deep learning</h2>
+<p>My main focus while I’m here is to develop a <a href="https://nl.wikipedia.org/wiki/Deep_learning">deep learning algorithm</a> to predict how patients will be treated the next day, based on how they have been treated. Traumatic brain injury patients often need to be treated for their intracranial hypertension. This is often done using a <a href="https://www.nejm.org/doi/full/10.1056/NEJMra1208708?url_ver=Z39.88-2003&amp;rfr_id=ori:rid:crossref.org&amp;rfr_dat=cr_pub%3dpubmed">“stairway approach”</a>: if the intracranial hypertension is high, increase the therapy intensity by one. Sounds simple, right?</p>
+<p>In practice, however, things are much more complicated. Every therapy on the stairway is associated with non-negligible side effects. You have to be sure that the patient needs that extra intensive treatment. Otherwise, the harms of the treatment outweigh the benefits. This is where the opinions of different physicians and institutions completely diverge. Therefore, it would be interesting to be able to predict what a similar patient in this particular scenario would have gotten. With help of such a prediction model, you could intensify the treatment now, instead of waiting and discussing it. This decrease in delay of intensifying treatment could potentially have a huge impact on patient outcome.</p>
+<p>I am, however, a bit critical to the validity and applicability of such a model. First of all, it is only possible to train on existing data. This means that you have to trust the decisions that have been made previously, to assist decision making in the future. Since the evidence base of the decision making in the field is low, these decisions are likely to be non-optimal. We simply do not know the best strategy. Therefore, a model that predicts decision making is likely to be not applicable, because the decision making is not perfect.</p>
+<p>Furthermore, the deep learning model is likely of limited validity because clinical data is messy. This is even more the case when using longitudinal (more than one observations per individual) data. Since deep learning models require full datasets (no missing data), a lot of assumptions should be made to fill in the blanks. This compromises the validity of the model in this dataset: the model doesn’t predict observed outcomes based on observed data, but it predicts observed outcomes on “manipulated” data. For example. if a patient only started measuring the pressure in the head (intracranial pressure ICP) from day 2 onwards, there is no way of knowing the pressure on day 1. We now use the observed value on day 2 as the best estimate of the pressure on day 1, but is that really valid? And how much is the validity of the training of the model thereby compromised? There is no way to find out…</p>
+<p>However, the bright side of the project is that I am learning <a href="https://www.python.org/">Python</a> and deep learning (the data science hype of the moment). Despite all my criticism, it would be a nice proof of concept. At least I hope to nuance the findings in the eventual paper. Finally, it would fit nicely with my PhD thesis. Predicting decisions is an overlap between my two main interests: prediction, and decision making. So it’s a win-win-win!</p>
+</div>
+<div id="etiology-versus-predictioneffectiveness" class="section level2">
+<h2>Etiology versus prediction/effectiveness</h2>
+<p>Of course, working in a new department will also involve working in a different scientific culture. At a first glance, the biggest difference is the work ethic: they stay much longer in the office than I’m used to. But somewhat later, it occurred to me that there is another, and perhaps more interesting difference.</p>
+<p>To explain what that difference is, it is important to understand the different “fields” of medical research. A common way to seperate out medical research is: etiology, prediction/prognosis, effectivity, and diagnosis. Etiological research focuses on the question of “why” something happens. Prediction research focuses on systematically “guess” the most likely future of a patient. Effectivity research focuses on identifying which treatments or strategies are better than others. Finally, diagnostic research focuses on finding the best way to identify patients with a particular disease.</p>
+<p>While my group in Rotterdam is mainly focused on effectivity and prediction research, the group here is much more focused on etiological research. What this means in practice, is that the data here are much more sophisticated and complex: they use high-resolution data collected in the intensive care (e.g with millions of blood pressure observations per patient), or CT scans and MRI scans of a large number of patients (on which they can see the volumes of all kinds of cerebral structures). In my group in Rotterdam, the data is much less complex, but bigger: my group focuses on the robustness and “validity” of the estimate. Or, to put it differently: instead of wanting to know every detail to understand the whole picture, we are more trying to estimating the “truth” in general. There is no bad or wrong, I suppose, just a different perspective.</p>
+</div>
+<div id="settling-in" class="section level2">
+<h2>Settling in</h2>
+<p>So far, my experience has been quite positive: I have enough time to finish all the books I wanted to read and still be as productive as I ever was. And running in Cambridge is, despite all the hills, quite beautiful and gives me a sense of calmness. Although it’s completely different than a hectic life in Rotterdam, I am finally feeling at home here. I’ll be spending a total of two months here, but I’m leaving for two weekends, and I have company during two other weekends. Ergo, the time flies. I am sure that this experience will be very satisfactional and rewarding. But, I’m longing to be back in my little paradise in Rotterdam.</p>
+</div>
