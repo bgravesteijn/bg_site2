@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Life lessons on Benjamin Gravesteijn</title>
+    <link>/tags/life-lessons/</link>
+    <description>Recent content in Life lessons on Benjamin Gravesteijn</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/life-lessons/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Settling down</title>
+      <link>/post/scientific-specialization-during-your-phd/</link>
+      <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/scientific-specialization-during-your-phd/</guid>
+      <description>Something else, something new. In conversations with friends, lately, something interesting has popped up. It started as an idea that seemed fresh. But the longer we talked it over, the more it seems like more of a thought process that started long ago, but has already been systematized in me. It involves the process of growing up, but applied to adolescent life: settling down. Please note, I know we’re not the first ones to think about it.</description>
+    </item>
+    
+  </channel>
+</rss>
