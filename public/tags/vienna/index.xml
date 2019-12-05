@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vienna on Benjamin Gravesteijn</title>
-    <link>https://bgravesteijn2.netlify.com/tags/vienna/</link>
+    <link>/tags/vienna/</link>
     <description>Recent content in Vienna on Benjamin Gravesteijn</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 04 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://bgravesteijn2.netlify.com/tags/vienna/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/vienna/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Anaesthesia meets Vienna</title>
-      <link>https://bgravesteijn2.netlify.com/post/euroanesthesia-2019/</link>
+      <link>/post/euroanesthesia-2019/</link>
       <pubDate>Tue, 04 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://bgravesteijn2.netlify.com/post/euroanesthesia-2019/</guid>
+      <guid>/post/euroanesthesia-2019/</guid>
       <description>Mentally, I started preparing for this business trip in Tokyo, Japan. After making my way over to the national art center, I was notified that one of the new exhibitions was “Vienna on her way to Modernism”. Through paintings, decorations, and fasion of the fin-de-siècle Viennese art scene, the transformation of Vienna on its way to the 20th century was meticulously displayed. From “just” a European city, to the capitol of the continent, through the development of intensive instrastructure, avant-garde architecture, and of course, the flourishing culture, centered around the Viennese bourgoisie.</description>
     </item>
     

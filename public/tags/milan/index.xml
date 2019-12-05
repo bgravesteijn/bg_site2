@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Milan on Benjamin Gravesteijn</title>
-    <link>https://bgravesteijn2.netlify.com/tags/milan/</link>
+    <link>/tags/milan/</link>
     <description>Recent content in Milan on Benjamin Gravesteijn</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 09 Jul 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://bgravesteijn2.netlify.com/tags/milan/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/milan/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Writer&#39;s visit to Milan</title>
-      <link>https://bgravesteijn2.netlify.com/post/writer-s-visit-to-milan/</link>
+      <link>/post/writer-s-visit-to-milan/</link>
       <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://bgravesteijn2.netlify.com/post/writer-s-visit-to-milan/</guid>
+      <guid>/post/writer-s-visit-to-milan/</guid>
       <description>“Retire me to my Milan, where every third thought shall be my grave.” William Shakespeare
 Visiting Milan to write a paper at the Ospedale Maggiore Policlinico di Milano: sounds like the most inspiring place to write, right? I know a professor who likes to come here for a week to write books, or funding applications. But now it’s my turn to be inspired by the city of fashion, the most cultivated and wealthiest city of Italy: the country of love.</description>
     </item>

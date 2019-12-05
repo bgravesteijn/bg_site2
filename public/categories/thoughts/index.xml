@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Thoughts on Benjamin Gravesteijn</title>
-    <link>https://bgravesteijn2.netlify.com/categories/thoughts/</link>
+    <link>/categories/thoughts/</link>
     <description>Recent content in Thoughts on Benjamin Gravesteijn</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 11 Oct 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://bgravesteijn2.netlify.com/categories/thoughts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/thoughts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Settling down</title>
-      <link>https://bgravesteijn2.netlify.com/post/scientific-specialization-during-your-phd/</link>
+      <link>/post/scientific-specialization-during-your-phd/</link>
       <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://bgravesteijn2.netlify.com/post/scientific-specialization-during-your-phd/</guid>
+      <guid>/post/scientific-specialization-during-your-phd/</guid>
       <description>Something else, something new. In conversations with friends, lately, something interesting has popped up. It started as an idea that seemed fresh. But the longer we talked it over, the more it seems like more of a thought process that started long ago, but has already been systematized in me. It involves the process of growing up, but applied to adolescent life: settling down. Please note, I know we’re not the first ones to think about it.</description>
     </item>
     
     <item>
       <title>Acknowledging and recognizing scientists</title>
-      <link>https://bgravesteijn2.netlify.com/post/acknowledging-and-recognizing-scientists/</link>
+      <link>/post/acknowledging-and-recognizing-scientists/</link>
       <pubDate>Sat, 25 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://bgravesteijn2.netlify.com/post/acknowledging-and-recognizing-scientists/</guid>
+      <guid>/post/acknowledging-and-recognizing-scientists/</guid>
       <description>A recent post focused around the future of acknowledging and recognizing science. One of the main points was that researchers right now are mostly acknowledged on their scientific output, instead of also on their total work as academic. As an illustration, I want to present how the community right now in practice values me as a researcher, as well as how I want to be valued.
 Current acknowledgmentResearchers right now are acknowledged based on their scientific output: publications.</description>
     </item>
