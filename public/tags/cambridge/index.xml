@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cambridge on Benjamin Gravesteijn</title>
-    <link>/tags/cambridge/</link>
+    <link>https://bgravesteijn2.netlify.com/tags/cambridge/</link>
     <description>Recent content in Cambridge on Benjamin Gravesteijn</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 21 Aug 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/cambridge/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bgravesteijn2.netlify.com/tags/cambridge/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Research visit to Cambridge</title>
-      <link>/post/research-visit-to-cambridge/</link>
+      <link>https://bgravesteijn2.netlify.com/post/research-visit-to-cambridge/</link>
       <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/research-visit-to-cambridge/</guid>
+      <guid>https://bgravesteijn2.netlify.com/post/research-visit-to-cambridge/</guid>
       <description>The last couple of weeks, I am working in Cambridge. I’m working here with Ari Ercole, and David Menon. Moving to a city where you don’t know anybody can be quite scary. Will you find enough distraction, or will I bore myself to death? Will I drown myself with work, just to keep myself busy? Or will I find a balance?
 Deep learningMy main focus while I’m here is to develop a deep learning algorithm to predict how patients will be treated the next day, based on how they have been treated.</description>
     </item>
