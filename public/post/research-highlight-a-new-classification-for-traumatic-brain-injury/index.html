@@ -220,49 +220,36 @@
                 <header>
                     <h2>TOC</h2>
                 </header>
-                <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#classification-of-tbi">Classification of TBI</a></li>
-<li><a href="#hypothesis-free-clustering">Hypothesis free clustering</a></li>
-<li><a href="#results">Results</a></li>
-<li><a href="#future-steps">Future steps</a></li>
-</ul></li>
-</ul>
-</nav>
+                
                 
                 
 
-<p>Last couple of weeks, I haven&rsquo;t been the most active on this blog, unfortunately. I started my clinical rotations, and still had to finish a couple of deadlines for my PhD. Therefore, I neglected this channel. However, I still wanted to bring you a new research highlight of my newest paper. It has been published in the journal of Neurotrauma, and is one of the results from the CENTER-TBI study.</p>
 
-<h2 id="classification-of-tbi">Classification of TBI</h2>
-
-<p>Traumatic brain injury (TBI), is currently classified as &ldquo;Mild&rdquo;, &ldquo;Moderate&rdquo;, &ldquo;Severe&rdquo;, based on the initial level of consciousness: the Glasgow Coma Scale (GCS). However, this classification has been criticized. Geoffrey Manley, an American Neurosurgeon known for its expertise in the field of TBI described the failure of the classification as: &ldquo;If an oncologic patient was given the diagnosis &ldquo;mild&rdquo; cancer, the doctor would be laughed at&rdquo;. Since TBI is just as heterogeneous a disease as oncology (as much flavors), cutting the entire population in three seems very unhelpful to better treat patients or manage patient flows.</p>
-
+<p>Last couple of weeks, I haven’t been the most active on this blog, unfortunately. I started my clinical rotations, and still had to finish a couple of deadlines for my PhD. Therefore, I neglected this channel. However, I still wanted to bring you a new research highlight of my newest paper. It has been published in the journal of Neurotrauma, and is one of the results from the CENTER-TBI study.</p>
+<div id="classification-of-tbi" class="section level2">
+<h2>Classification of TBI</h2>
+<p>Traumatic brain injury (TBI), is currently classified as “Mild”, “Moderate”, “Severe”, based on the initial level of consciousness: the Glasgow Coma Scale (GCS). However, this classification has been criticized. Geoffrey Manley, an American Neurosurgeon known for its expertise in the field of TBI described the failure of the classification as: “If an oncologic patient was given the diagnosis”mild&quot; cancer, the doctor would be laughed at“. Since TBI is just as heterogeneous a disease as oncology (as much flavors), cutting the entire population in three seems very unhelpful to better treat patients or manage patient flows.</p>
 <p>One of the main purpose of the CENTER-TBI study, was to develop a multidimensional classification of TBI. And the analysis which I performed was an attempt to come to such a classification. We have not yet reached the final goal by this study, but I do believe we made a step into the right direction.</p>
+</div>
+<div id="hypothesis-free-clustering" class="section level2">
+<h2>Hypothesis free clustering</h2>
+<p>We have tackled this problem by performing an analysis, which falls into the category of “machine learning algorithms”: a hypothesis-free clustering method. Let’s break that down into pieces, to understand what we have done.</p>
+<p>The first concept of our analysis, is that it is hypothesis-free. A hypothesis-based analysis assumes something, based on the hypothesis. If your hypothesis is that women are taller than men, you assume that the length is dependent on gender: íf you are a male, instead of a female, you are likely taller. Our analysis does not assume anything, no relationship between variables. Hypothesis-free is often referred to as “exploratory”: you can learn something from the data that you could not have thought before the analysis. After performing this analysis, however, I beg to differ: a hypothesis-free analysis is simply harder to interpret. The found relationship between characteristics, is it temporally related, or causally? We simply do not know. This is an important limitation, which I will address later on. For me, it is the reason why our analysis is not the final answer to address the classification issue, but only one step forward.</p>
+<p>The second concept, is “clustering”. This refers to the end-product of our hypothesis-free analysis. George Orwell’s <em>Animal Farm</em> famously stated that “some animals are more equal than others”. Well, this analysis tries to find patients who are “more equal” than others. For all patients, we calculate some metric which has a very similar value in some clusters, and different than the value in other clusters. Based on this metric, we identify 4 clusters (let’s not venture into the discussion about the arbitrary number…), and we describe these. These clusters in theory, reflect “real” clusters in the patient data.</p>
+</div>
+<div id="results" class="section level2">
+<h2>Results</h2>
+<p>We described the 4 identified clusters by their outcome: “mild”“,”upper intermediate“,”lower intermediate“, and”severe“. The mild and severe cluster comprised of young patients who sustained TBI by a road traffic incident. That is intersting: the outcome was worst, and best, in the youngest patients. Does that mean that young patients can better recover from a less severe TBI than older patients, and that some experience more severe TBI’s? We simply do not know. Trying to interpret directions of causality in this data is dangerous, because we did not assume anything.</p>
+<p>What was interesting, however, that we found that the characteristics that best described these clusters were <em>Glasgow coma scale</em> (already used in the previous classification), <em>major extracranial injury</em> (injury outside the head, for example a fracture), and <em>energy of trauma</em> (whether the accident was very fast, i.e. a large traffic collision, or slower, i.e. fall in the shower). Why is this interesting? Previously, it has been established that major extracranial injury and energy of trauma do not influence outcome, if you already know their Glasgow Coma Scale. However, we were not interested in outcome: this study shows that these characteristics can be used to describe different “types” of patients, instead of patients with better or worse outcome. And this, is new.</p>
+</div>
+<div id="future-steps" class="section level2">
+<h2>Future steps</h2>
+<p>I already said, that I do not think that our study is the definite answer to the question: “how to classify TBI patients?”. Instead, we were more able to answer the question: “how can we better describe TBI patients?”.</p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">... add the energy of trauma.<br><br>And now we enter the era where we are better able to differentiate the syndrome of TBI.<br><br>Great work. <a href="https://t.co/7XMeNxBhtY">https://t.co/7XMeNxBhtY</a></p>&mdash; NCCU Cambridge UK (@NCCUCambridge) <a href="https://twitter.com/NCCUCambridge/status/1199020010712260608?ref_src=twsrc%5Etfw">November 25, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<h2 id="hypothesis-free-clustering">Hypothesis free clustering</h2>
-
-<p>We have tackled this problem by performing an analysis, which falls into the category of &ldquo;machine learning algorithms&rdquo;: a hypothesis-free clustering method. Let&rsquo;s break that down into pieces, to understand what we have done.</p>
-
-<p>The first concept  of our analysis, is that it is hypothesis-free. A hypothesis-based analysis assumes something, based on the hypothesis. If your hypothesis is that women are taller than men, you assume that the length is dependent on gender: íf you are a male, instead of a female, you are likely taller. Our analysis does not assume anything, no relationship between variables. Hypothesis-free is often referred to as &ldquo;exploratory&rdquo;: you can learn something from the data that you could not have thought before the analysis. After performing this analysis, however, I beg to differ: a hypothesis-free analysis is simply harder to interpret. The found relationship between characteristics, is it temporally related, or causally? We simply do not know. This is an important limitation, which I will address later on. For me, it is the reason why our analysis is not the final answer to address the classification issue, but only one step forward.</p>
-
-<p>The second concept, is &ldquo;clustering&rdquo;. This refers to the end-product of our hypothesis-free analysis. George Orwell&rsquo;s <em>Animal Farm</em> famously stated that &ldquo;some animals are more equal than others&rdquo;. Well, this analysis tries to find patients who are &ldquo;more equal&rdquo; than others. For all patients, we calculate some metric which has a very similar value in some clusters, and different than the value in other clusters. Based on this metric, we identify 4 clusters (let&rsquo;s not venture into the discussion about the arbitrary number&hellip;), and we describe these. These clusters in theory, reflect &ldquo;real&rdquo; clusters in the patient data.</p>
-
-<h2 id="results">Results</h2>
-
-<p>We described the 4 identified clusters by their outcome: &ldquo;mild&rdquo;&ldquo;, &ldquo;upper intermediate&rdquo;, &ldquo;lower intermediate&rdquo;, and &ldquo;severe&rdquo;. The mild and severe cluster comprised of young patients who sustained TBI by a road traffic incident. That is intersting: the outcome was worst, and best, in the youngest patients. Does that mean that young patients can better recover from a less severe TBI than older patients, and that some experience more severe TBI&rsquo;s? We simply do not know. Trying to interpret directions of causality in this data is dangerous, because we did not assume anything.</p>
-
-<p>What was interesting, however, that we found that the characteristics that best described these clusters were <em>Glasgow coma scale</em> (already used in the previous classification), <em>major extracranial injury</em> (injury outside the head, for example a fracture), and <em>energy of trauma</em> (whether the accident was very fast, i.e. a large traffic collision, or slower, i.e. fall in the shower). Why is this interesting? Previously, it has been established that major extracranial injury and energy of trauma do not influence outcome, if you already know their Glasgow Coma Scale. However, we were not interested in outcome: this study shows that these characteristics can be used to describe different &ldquo;types&rdquo; of patients, instead of patients with better or worse outcome. And this, is new.</p>
-
-<h2 id="future-steps">Future steps</h2>
-
-<p>I already said, that I do not think that our study is the definite answer to the question: &ldquo;how to classify TBI patients?&rdquo;. Instead, we were more able to answer the question: &ldquo;how can we better describe TBI patients?&rdquo;.</p>
-
-<p>preserveacc2d2eebc73ad2c</p>
-
-<p>But, we do want to classify patients better. How to do that? I think we need to proceed by using at least a hypothesis-based method. That does not mean per sé an analysis. I think that consensus-based (perhaps a Delphi study?) can be perhaps the next step forward, of course followed by a rigorous validation. Andrew Maas, one of the directors of the CENTER-TBI study, was very attracted by the idea of &ldquo;building blocks&rdquo;: a &ldquo;type&rdquo; of information (imaging/biomarkers/demographics&hellip;). Somehow, we need to define relevant relevant type of building blocks (including those that we found), and combine these into one classification. But that will not be a simple task, and need some extra thinking. Luckily, I&rsquo;m not alone, and a lot of people are thinking about this problem. At least we have enough data to validate such a classification. That&rsquo;s a much better starting point than 40 years ago, when the GCS was invented. That should spark our enthusiasm!</p>
+<p>But, we do want to classify patients better. How to do that? I think we need to proceed by using at least a hypothesis-based method. That does not mean per sé an analysis. I think that consensus-based (perhaps a Delphi study?) can be perhaps the next step forward, of course followed by a rigorous validation. Andrew Maas, one of the directors of the CENTER-TBI study, was very attracted by the idea of “building blocks”: a “type” of information (imaging/biomarkers/demographics…). Somehow, we need to define relevant relevant type of building blocks (including those that we found), and combine these into one classification. But that will not be a simple task, and need some extra thinking. Luckily, I’m not alone, and a lot of people are thinking about this problem. At least we have enough data to validate such a classification. That’s a much better starting point than 40 years ago, when the GCS was invented. That should spark our enthusiasm!</p>
+</div>
 
 
                 
@@ -277,7 +264,7 @@
                     
                     
                     <li class="next">
-                        <a href="/post/research-highlight-a-new-classification-for-traumatic-brain-injury/" data-toggle="tooltip" data-placement="top" title="Research Highlight: a New Classification for Traumatic Brain Injury">Next
+                        <a href="/post/research-highlight-a-new-classifiation-for-tbi/" data-toggle="tooltip" data-placement="top" title="Research highlight: a new classifiation for TBI">Next
                             Post &rarr;</a>
                     </li>
                     
