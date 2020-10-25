@@ -1,40 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Benjamin Gravesteijn</title>
-    <link>/categories/</link>
+    <link>https://bgravesteijn2.netlify.com/categories/</link>
     <description>Recent content in Categories on Benjamin Gravesteijn</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Dec 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 25 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://bgravesteijn2.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Research highlights</title>
-      <link>/categories/research-highlights/</link>
-      <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
+      <title>Thoughts</title>
+      <link>https://bgravesteijn2.netlify.com/categories/thoughts/</link>
+      <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/research-highlights/</guid>
+      <guid>https://bgravesteijn2.netlify.com/categories/thoughts/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Thoughts</title>
-      <link>/categories/thoughts/</link>
-      <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
+      <title>Research highlights</title>
+      <link>https://bgravesteijn2.netlify.com/categories/research-highlights/</link>
+      <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>/categories/thoughts/</guid>
+      <guid>https://bgravesteijn2.netlify.com/categories/research-highlights/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Conferences</title>
-      <link>/categories/conferences/</link>
+      <link>https://bgravesteijn2.netlify.com/categories/conferences/</link>
       <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/categories/conferences/</guid>
+      <guid>https://bgravesteijn2.netlify.com/categories/conferences/</guid>
       <description></description>
     </item>
     

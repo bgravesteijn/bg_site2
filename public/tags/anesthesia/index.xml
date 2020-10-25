@@ -1,80 +1,76 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Anesthesia on Benjamin Gravesteijn</title>
-    <link>/tags/anesthesia/</link>
+    <link>https://bgravesteijn2.netlify.com/tags/anesthesia/</link>
     <description>Recent content in Anesthesia on Benjamin Gravesteijn</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Dec 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/anesthesia/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 05 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://bgravesteijn2.netlify.com/tags/anesthesia/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Research Highlight: a New Classification for Traumatic Brain Injury</title>
-      <link>/post/research-highlight-a-new-classification-for-traumatic-brain-injury/</link>
+      <link>https://bgravesteijn2.netlify.com/post/research-highlight-a-new-classification-for-traumatic-brain-injury/</link>
       <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/research-highlight-a-new-classification-for-traumatic-brain-injury/</guid>
+      <guid>https://bgravesteijn2.netlify.com/post/research-highlight-a-new-classification-for-traumatic-brain-injury/</guid>
       <description>Last couple of weeks, I haven’t been the most active on this blog, unfortunately. I started my clinical rotations, and still had to finish a couple of deadlines for my PhD. Therefore, I neglected this channel. However, I still wanted to bring you a new research highlight of my newest paper. It has been published in the journal of Neurotrauma, and is one of the results from the CENTER-TBI study.</description>
     </item>
     
     <item>
       <title>Research highlight: Cost effectiveness of ECPR</title>
-      <link>/post/research-highlight-cost-effectiveness-of-ecpr/</link>
+      <link>https://bgravesteijn2.netlify.com/post/research-highlight-cost-effectiveness-of-ecpr/</link>
       <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/research-highlight-cost-effectiveness-of-ecpr/</guid>
+      <guid>https://bgravesteijn2.netlify.com/post/research-highlight-cost-effectiveness-of-ecpr/</guid>
       <description>The first official post in the series of research highlight will be a paper that I recently published in the journal “Resuscitation”. The title of the study is “Cost-effectiveness of extracorporeal cardiopulmonary resuscitation after in-hospital cardiac arrest: A Markov decision model”, which is a lengthy, sophisticated, complex, and incomprehensible title, as research should be. Let’s break down what it is about, why we did this study, so we could have a chat about it some time.</description>
     </item>
     
     <item>
       <title>Research highlight: introduction</title>
-      <link>/post/research-highlight-introduction/</link>
+      <link>https://bgravesteijn2.netlify.com/post/research-highlight-introduction/</link>
       <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/research-highlight-introduction/</guid>
+      <guid>https://bgravesteijn2.netlify.com/post/research-highlight-introduction/</guid>
       <description>This blogpost is the first in a series, called “Research Highlights”. This is a series where I will put my research into context, contemplate on what I did, and why, and most of all: comprehensible for everybody. I have been thinking about this since only recently, and I would like to share some thoughts on why this feels like the appropriate thing to do.
 Most of you probably know that one of the perks of being a PhD student, is to write and publish papers.</description>
     </item>
     
     <item>
       <title>TBI, beer, and chocolates in Leuven</title>
-      <link>/post/tbi-beer-and-chocolates-in-leuven/</link>
+      <link>https://bgravesteijn2.netlify.com/post/tbi-beer-and-chocolates-in-leuven/</link>
       <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/tbi-beer-and-chocolates-in-leuven/</guid>
+      <guid>https://bgravesteijn2.netlify.com/post/tbi-beer-and-chocolates-in-leuven/</guid>
       <description>Starting of #icpic2019 - listening to the most important viewpoint- that of the patient pic.twitter.com/FU8J5fWpBp
 &amp;mdash; David Menon (@Menon_Cambridge) September 8, 2019  For the last month, I have been staying in Cambridge, as you perhaps have read before. However, last week was a little different. I have been flying quite a lot this year: Japan, Vienna, Cambridge, Milan… But my final trip of 2019 commenced last week: a conference in the former beer capitol of the world, Leuven.</description>
     </item>
     
     <item>
       <title>Research visit to Cambridge</title>
-      <link>/post/research-visit-to-cambridge/</link>
+      <link>https://bgravesteijn2.netlify.com/post/research-visit-to-cambridge/</link>
       <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/research-visit-to-cambridge/</guid>
+      <guid>https://bgravesteijn2.netlify.com/post/research-visit-to-cambridge/</guid>
       <description>The last couple of weeks, I am working in Cambridge. I’m working here with Ari Ercole, and David Menon. Moving to a city where you don’t know anybody can be quite scary. Will you find enough distraction, or will I bore myself to death? Will I drown myself with work, just to keep myself busy? Or will I find a balance?
 Deep learningMy main focus while I’m here is to develop a deep learning algorithm to predict how patients will be treated the next day, based on how they have been treated.</description>
     </item>
     
     <item>
       <title>Writer&#39;s visit to Milan</title>
-      <link>/post/writer-s-visit-to-milan/</link>
+      <link>https://bgravesteijn2.netlify.com/post/writer-s-visit-to-milan/</link>
       <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/writer-s-visit-to-milan/</guid>
+      <guid>https://bgravesteijn2.netlify.com/post/writer-s-visit-to-milan/</guid>
       <description>“Retire me to my Milan, where every third thought shall be my grave.” William Shakespeare
 Visiting Milan to write a paper at the Ospedale Maggiore Policlinico di Milano: sounds like the most inspiring place to write, right? I know a professor who likes to come here for a week to write books, or funding applications. But now it’s my turn to be inspired by the city of fashion, the most cultivated and wealthiest city of Italy: the country of love.</description>
     </item>
     
     <item>
       <title>Anaesthesia meets Vienna</title>
-      <link>/post/euroanesthesia-2019/</link>
+      <link>https://bgravesteijn2.netlify.com/post/euroanesthesia-2019/</link>
       <pubDate>Tue, 04 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/euroanesthesia-2019/</guid>
+      <guid>https://bgravesteijn2.netlify.com/post/euroanesthesia-2019/</guid>
       <description>Mentally, I started preparing for this business trip in Tokyo, Japan. After making my way over to the national art center, I was notified that one of the new exhibitions was “Vienna on her way to Modernism”. Through paintings, decorations, and fasion of the fin-de-siècle Viennese art scene, the transformation of Vienna on its way to the 20th century was meticulously displayed. From “just” a European city, to the capitol of the continent, through the development of intensive instrastructure, avant-garde architecture, and of course, the flourishing culture, centered around the Viennese bourgoisie.</description>
     </item>
     
