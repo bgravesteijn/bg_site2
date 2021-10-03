@@ -68,12 +68,13 @@ home = ["HTML", "RSS", "Algolia"]
   [params.social]
   rss            = true 
   email          = "b.gravesteijn@erasmusmc.nl"
-  facebook       = "https://www.facebook.com/benjamin.gravesteijn?ref=bookmarks"
+  keybase     = "https://scholar.google.nl/citations?user=faWBjCQAAAAJ&hl=nl"
+  #facebook       = "https://www.facebook.com/benjamin.gravesteijn?ref=bookmarks"
   #googleplus    = "full profile url in googleplus"
   twitter        = "https://twitter.com/BGravesteijn"
   linkedin       = "https://www.linkedin.com/in/benjamin-gravesteijn-838a2b10a/"
   #stackoverflow = "https://stackoverflow.com/users/yourstackoverflowid"
-  instagram      = "https://www.instagram.com/benjiflensj/"
+  #instagram      = "https://www.instagram.com/benjiflensj/"
   github         = "https://github.com/bgravesteijn"
   #wechat         = "your wechat qr code image"
 #  medium         = "full profile url in medium"
